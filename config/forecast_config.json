@@ -1,0 +1,20 @@
+{
+    "n_lags": 6,
+    "features": [
+        "hour",
+        "day_of_week",
+        "is_weekend",
+        "outdoor_temp_c",
+        "power_lag_1",
+        "power_lag_2",
+        "power_lag_3",
+        "power_lag_4",
+        "power_lag_5",
+        "power_lag_6"
+    ],
+    "metrics": {
+        "mae": 5.171822209567198,
+        "rmse": 6.482198814334911
+    },
+    "description": "RandomForestRegressor trained on 1H resampled data."
+}
